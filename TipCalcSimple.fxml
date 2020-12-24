@@ -23,14 +23,21 @@
     <children>
         <Label fx:id="amountLabel" text="Amount" />
         <Label fx:id="percentageLabel" text="15%" GridPane.rowIndex="1" />
-        <Label fx:id="tipLabel" text="Tip" GridPane.rowIndex="2" />
-        <Label fx:id="totalLabe" text="Total" GridPane.rowIndex="3" />
+        <Label fx:id="tipLabel" text="Tip" GridPane.rowIndex="3" />
+        <Label fx:id="totalLabe" text="Total" GridPane.rowIndex="4" />
         <TextField fx:id="amountTextField" promptText="Enter the amount" GridPane.columnIndex="1" />
-        <TextField fx:id="totalTextField" editable="false" focusTraversable="false" promptText="What is the total?" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-        <TextField fx:id="tipTextField" editable="false" promptText="Enter the tip" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <TextField fx:id="totalTextField" editable="false" focusTraversable="false" promptText="What is the total?" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <TextField fx:id="tipTextField" editable="false" promptText="Enter the tip" GridPane.columnIndex="1" GridPane.rowIndex="3" />
         <Slider fx:id="tipPercentageSlider" min="15.0" value="5.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="percTextField" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+      </TextField>
+      <Label prefHeight="16.0" prefWidth="85.0" text="Percentage" GridPane.rowIndex="2" />
     </children>
     <padding>
         <Insets bottom="14.0" left="14.0" right="14.0" top="14.0" />
     </padding>
 </GridPane>
+
