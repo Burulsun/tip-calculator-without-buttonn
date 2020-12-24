@@ -22,6 +22,8 @@ public class TipCalculatorControl {
 
     @FXML
     private Label amountLabel;
+     @FXML
+    private TextField percTextField;
 
     @FXML
     private Label percentageLabel;
@@ -84,6 +86,7 @@ public class TipCalculatorControl {
             public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
                 tipPercentage = BigDecimal.valueOf(t1.intValue()/100.0);
                 percentageLabel.setText(percent.format(tipPercentage));
+                percTextField.textProperty().bindBidirectional(tipPercentageSlider.valueProperty(), NumberFormat.getNumberInstance());
                 calculate();
             }
 
