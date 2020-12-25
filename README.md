@@ -2,4 +2,17 @@
 
 Author Burulsun Taalaibekova
 
-You can check out Screenshots zip file for screenshots
+Initial state:
+
+![](ScreenShots/initilaal.jpeg)
+
+
+
+If you
+
+![](ScreenShots/slider.jpeg)
+
+
+Initial state:
+
+![](ScreenShots/textInpput.jpeg)
