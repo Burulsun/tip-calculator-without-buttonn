@@ -8,11 +8,10 @@ Initial state:
 
 
 
-If you
+If you change the value via the slider
 
 ![](ScreenShots/slider.jpeg)
 
-
-Initial state:
+If you change the value via the text input field
 
 ![](ScreenShots/textInpput.jpeg)
